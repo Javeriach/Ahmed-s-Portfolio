@@ -1,0 +1,328 @@
+ 
+  
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600;1,700&family=Jost&display=swap');
+ 
+   /* First page */
+.whole-portfolio
+{
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.container
+{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    display: block;
+}
+
+.navber
+{
+    
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 1;
+    padding-left:  25%;
+    padding-top: 15px;
+    font-size: 20px;
+    list-style: none;
+}
+.name
+{
+    color: #f30d3f;
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: -330px;
+    margin-top: 5px;
+}
+.fa-regular
+{
+    margin-top: 5px;
+    color: #f7f5f5;
+    font-size: 50px;
+    
+}
+/* First fice buttons */
+.button
+{
+    background-color: #f30d3f;
+   
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.button:hover
+{
+    background-color: #f7f2f3;
+    color:#f30d3f;
+    height: 53px;
+    width: 103px;
+}
+.image-text
+{
+    display: flex;
+    position:relative;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+.middle-name
+{
+    color: #fcf7f8;
+    font-size: 30px;
+    margin-bottom: -60px;
+}
+.para-combo
+{
+    padding-top: 50px;
+}
+.first-para
+{
+    font-size: 50px;
+    color: white;
+}
+.para
+{
+   
+    font-size: 25px;
+    color: white;
+    margin-top: -40px;
+}
+.middle-part
+{
+    color: #f30d3f;
+    font-size: 60px;
+    
+}
+.image
+{
+    
+    height: 450px;
+    width: 350px;
+}
+.CV-btn{
+    width: 200px;
+    height: 50px;
+    background-color:  rgb(232, 7, 7);;;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+.btn-link
+{
+    text-decoration: none;
+    color: white;
+}
+.CV-btn:hover
+{
+    
+   background-color: rgb(232, 7, 7);
+   -webkit-box-shadow: 0px 0px 4px 4px rgba(252,244,246,1);
+    -moz-box-shadow: 0px 0px 4px 4px rgba(252,244,246,1);
+    box-shadow: 0px 0px 4px 4px rgba(252,244,246,1);
+  width: 210px;
+  height: 60px;
+ 
+}
+/* Second Container-----Card */
+ .container-Cards
+ {
+    
+    background-color: #f30d3f;
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    margin-top: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+ }
+ 
+ .three-Cards-Combo
+ {
+    display: flex;
+    justify-content: space-around;
+ }
+ /* Our services */
+ .card-Mainheading
+ {
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-align: center;
+ }
+ 
+ 
+/* Every single card behaviour */
+ .cards
+ {
+   background-color: rgb(17, 15, 15);
+    width: 300px;
+    height: 350px;
+    color: white;
+   
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: -1px 1px 18px 0px rgba(10,1,1,0.75);
+    -webkit-box-shadow: -1px 1px 18px 0px rgba(10,1,1,0.75);
+    -moz-box-shadow: -1px 1px 18px 0px rgba(10,1,1,0.75);
+    
+    padding: 0px 10px;
+}
+/* Name of the icons like projects and icons */
+.icon-heading
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px
+    
+}
+.fa-solid
+{
+    color: #f30d3f;
+    font-weight: 300;
+    font-size: 40px;
+}
+h2
+{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 5px  ;
+}
+
+/* Card lorem part */
+.card-para
+{
+    font-size: 20px;
+}
+/* Hover effect of all the cards */
+.cards:hover
+{
+    width: 302px;
+    height: 352px;
+    box-shadow: -1px 1px 18px 0px rgba(250,243,243,0.75);
+-webkit-box-shadow: -1px 1px 18px 0px rgba(250,243,243,0.75);
+-moz-box-shadow: -1px 1px 18px 0px rgba(250,243,243,0.75);
+}
+                    /* Cards button */
+.cards-btn
+{
+    background-color: #f30d3f;
+   color: white;
+   width: 110px;
+   height: 40px;
+    margin-left: 95px;
+    border-radius: 20px;
+    font-size: 17px;
+    border: none;
+}
+.cards-btn:hover
+{
+    cursor: pointer;
+   
+    background-color: #f7f2f3;
+    color: #f30d3f;
+    box-shadow: -1px 1px 26px 12px rgba(240,228,228,0.75);
+    -webkit-box-shadow: -1px 1px 26px 12px rgba(240,228,228,0.75);
+    -moz-box-shadow: -1px 1px 26px 12px rgba(240,228,228,0.75);
+    
+}
+/* Rate the profile */
+.container-rate
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-color: black;
+    color: #f9f4f5;
+    font-size: 20px;
+    margin-top: 1190px;
+    width: 100%;
+    height: 300px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.fa-star:hover
+ {
+    cursor: pointer;
+    color: #f30d3f;
+    
+
+ }
+.container-contact
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    margin-top: 1450px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    font-size: 30px;
+}
+.btn-hire
+{
+    background-color: #f30d3f;
+    color: white;
+    width: 110px;
+    height: 40px;
+    
+     border-radius: 20px;
+     font-size: 17px;
+     border: none;
+}
+.btn-hire:hover{
+    background-color: #faf8f9;
+    color: #f30d3f;
+    box-shadow: -1px 1px 26px 12px rgba(240,228,228,0.75);
+    -webkit-box-shadow: -1px 1px 26px 12px rgba(240,228,228,0.75);
+    -moz-box-shadow: -1px 1px 26px 12px rgba(240,228,228,0.75);
+}
+/* Github */
+.github
+{
+    position: absolute;
+    background-color: #060001;
+    color: white;
+    font-family:'Josefin Sans', sans-serif ;
+    height: 100px;
+    width: 100%;
+    margin-top: 1750px;
+    display: flex;
+   justify-content: space-around;
+   justify-content: baseline;
+   font-size: 30px;
+    
+}
+.fa-brands:hover
+{
+    font-size: 25px;
+    cursor: pointer;
+    font-size:35px ;
+    
+
+}
+
+
+
+ 
